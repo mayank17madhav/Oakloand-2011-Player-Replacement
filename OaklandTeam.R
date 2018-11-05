@@ -49,7 +49,7 @@ lost_players
 lost_players <- lost_players[,c('playerID','H','X2B','X3B','HR','OBP','SLG','BA','AB')]
 lost_players
 
-library(deployer)
+library(dplyr)
 # Getting list of available players for selection
 avail.players <- filter(combo,yearID==2001)
 
